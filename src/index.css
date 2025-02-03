@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+
+/* Global Style */
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Paragraphs */
+
+p {
+  margin:0 0 18px;
+}
+
+
+/* Anchors */
+
+a {
+  cursor: pointer;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 24px;
+  line-height: 1.2;
+}
+
+h3{
+  line-height: 1.4;
+}
+
+h1{
+  font-size: 44px;
+}
+
+h2{
+font-size: 36px;
+}
+
+h3{
+  font-size: 26px;
+}
+
+h4{
+  font-size: 20px;
+}
+
+h5{
+  font-size: 18px;
+}
+
+h6{
+  font-size: 16px;
+}
+
+/* Lists */
+
+ul,
+ol {
+  margin: 0 0 1.4rem;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin: 0;
+}
+
+ul.no-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+/* Code blocks */
+
+pre {
+  overflow: auto;
+}
+
+code {
+  vertical-align: bottom;
+}
+
+/* Blockquotes */
+
+blockquote {
+  border-left: 2px solid;
+  margin: 0 0 1.4rem;
+  padding-left: 0.7rem;
+}
+
+/* Horizontal rules */
+
+hr {
+  border: none;
+  border-bottom: 1px solid #CCC;
+}
+
+/* Image alt text */
+
+img {
+  max-width:100%;
+  height:auto;
+  vertical-align:top;
+}

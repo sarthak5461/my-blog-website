@@ -1,0 +1,30 @@
+
+.blog-listing-section .blog-list .blog-item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 0 15px;
+}
+
+.blog-listing-section .blog-list img.feat_img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  min-height: 380px;
+}
+
+.blog-listing-section .blog-list .blog-item h3 {
+  font-size: 24px;
+}
+
+.blog-listing-section .blog-list .blog-item .content_sec {
+  padding: 0 0 10px;
+}
+
+.blog-listing-section .blog-list .blog-item a.read_more_btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  padding: 8px 20px;
+  display: inline-block;
+  border-radius: 40px;
+}

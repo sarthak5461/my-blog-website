@@ -1,0 +1,45 @@
+.feature_blog_posts {
+  padding-top: 60px;
+}
+
+.feature_blog_posts h2 {
+  text-align: center;
+  margin: 0;
+}
+.feature_blog_posts .blog-list {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0 -15px;
+}
+
+.feature_blog_posts .blog-list .blog-item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 0 15px;
+}
+
+.feature_blog_posts .blog-list img.feat_img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  min-height: 380px;
+}
+
+.feature_blog_posts .blog-list .blog-item h3 {
+  font-size: 24px;
+}
+
+.feature_blog_posts .blog-list .blog-item .content_sec {
+  padding: 0 0 10px;
+}
+
+.feature_blog_posts .blog-list .blog-item a.read_more_btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  padding: 8px 20px;
+  display: inline-block;
+  border-radius: 40px;
+}

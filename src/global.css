@@ -1,0 +1,53 @@
+.page-center {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header .header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+header .header-inner .logo {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+header .header-inner .menu {
+  flex: 0 0 66.67%;
+  max-width: 66.67%;
+}
+
+header .header-inner .menu ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+
+header .header-inner .logo img {
+  max-width: 100px;
+}
+
+header .header-inner .menu ul li {
+  padding: 0 10px;
+}
+
+header .header-inner .menu ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.layout-wrapper footer {
+  text-align: center;
+  padding: 30px;
+}
+
+.layout-wrapper footer p {
+  margin: 0;
+}
+
+
